@@ -1,8 +1,12 @@
 [package]
 name = "forseti_ruleset_terraform"
-version = "0.1.0"
-edition = "2021"
 description = "Terraform ruleset for Forseti linter - provides Terraform-specific linting rules"
+repository = "https://github.com/forseti-linter/forseti-ruleset-terraform/"
+authors = ["Marc Seiler <digitalfiz@proton.me>"]
+version = "0.1.1"
+edition = "2024"
+license-file = "LICENSE"
+
 
 [[bin]]
 name = "forseti_ruleset_terraform"
